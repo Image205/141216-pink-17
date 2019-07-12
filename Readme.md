@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Сергей Синденов](https://up.htmlacademy.ru/adaptive/17/user/141216).
-* Наставник: `Неизвестно`.
+* Наставник: Кексобот.
 
 ---
 
