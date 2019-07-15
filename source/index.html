@@ -1,32 +1,91 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
-  <body>
-    <header class="page_header">
-      <div class="page_header-top">
-        <img class="page_header-logo" src="https://placehold.it/100x50">
-        <button class="page_header-button">меню</button>
-      </div>
-      <nav class="main_nav">
-        <ul class="main_nav-list">
-          <li class="main_nav-item">
-            <a class="active">Главная</a>
-          </li>
-          <li class="main_nav-item">
-            <a href="photo.html">Фотографии</a>
-          </li>
-          <li class="main_nav-item">
-            <a href="form.html">Конкурс</a>
-          </li>
-          <li class="main_nav-item">
-            <a href="https://up.htmlacademy.ru/adaptive/17">HTML Academy</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Пинк</title>
+</head>
+
+<body>
+  <header class="page__header">
+    <div class="page__header-top">
+      <img class="page__header-logo" src="https://placehold.it/100x50">
+      <button class="page__header-button">меню</button>
+    </div>
+    <nav class="main__nav">
+      <ul class="main__nav-list">
+        <li class="main__nav-item">
+          <a class="active">Главная</a>
+        </li>
+        <li class="main__nav-item">
+          <a href="photo.html">Фотографии</a>
+        </li>
+        <li class="main__nav-item">
+          <a href="form.html">Конкурс</a>
+        </li>
+        <li class="main__nav-item">
+          <a href="https://up.htmlacademy.ru/adaptive/17">HTML Academy</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-main">
+    <h1 class="visually-hidden">Приложение "Pink"</h1>
+    <section class="app-promo">
+      <div class="app-promo__background-block">
+        <img class="app-promo__arm" src="https://placehold.it/500x500">
+      </div>
+      <div class="app-promo__download-block">
+        <button class="app-promo__button circle-button">Скачать приложение</button>
+        <div class="app-promo__os-icons">
+          <span class="app-promo__icon app-promo__icon--iOS">iOS</span>
+          <span class="app-promo__icon app-promo__icon--Android">Android</span>
+          <span class="app-promo__icon app-promo__icon--Win">Windows</span>
+        </div>
+        <p class="app-promo__compatibility">
+          Доступно для IPhone, IPad, Android, Windows Phone, OS X, Windows 8
+        </p>
+      </div>
+    </section>
+    <section class="features">
+      <header class="features__header">
+        <p class="features__head-text">
+          Устали от серости мегаполиса?
+        </p>
+        <p class="features__head-text">
+          У нас есть что вам предложить!
+        </p>
+      </header>
+      <ul class="features__list">
+        <li>
+          <h3 class="features__heading">
+            Поднимает насроение
+          </h3>
+          <p class="features__text">
+            Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!
+          </p>
+        </li>
+        <li>
+          <h3 class="features__heading">
+            Меняет мир вокруг
+          </h3>
+          <p class="features__text">
+            Сделайте снимок и украсьте его смайликом или текстовой подписью чтобы усилить эффект
+          </p>
+        </li>
+        <li>
+          <h3 class="features__heading">
+            Заводит новых друзей
+          </h3>
+          <p class="features__text">
+            Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых
+          </p>
+        </li>
+      </ul>
+      <img class="features__phone" src="https://placehold.it/400x800">
+    </section>
+  </main>
+</body>
+
 </html>
